@@ -1,0 +1,55 @@
+.nav{
+    grid-area: nv;
+    padding: 7%;
+    background: rgb(34,33,51)
+  }
+
+  .items a{
+      color: #8BA1DA;
+      text-decoration: none;
+      padding-bottom: 7%;
+  }
+
+  .items a.activeLink{
+      color: #E18686;
+  }
+
+  .items{
+      display: flex;
+      flex-direction: column;
+      margin-top: 15%;
+      padding-left: 15%;
+  }
+
+  .avatar{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin-left: 0%;
+}
+
+.head{
+    display: flex;
+    text-align: center;
+    color : #FFFEFE;
+}
+
+.persona{
+    font-size: 150%;
+}
+
+.login{
+    font-size: 50%;
+    letter-spacing: 10px;
+    color : #BEC5FF;
+}
+
+.exit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 210%;
+    padding-left: 15%;
+    color: #8BA1DA;
+    text-decoration: none;
+    padding-bottom: 7%;
+}

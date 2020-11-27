@@ -1,0 +1,25 @@
+.app-soc-set{
+  display: grid;
+
+  grid-template-areas: 
+  "nv head"
+  "nv cont";
+  grid-template-rows: 1fr 21fr;
+  grid-template-columns: 2fr 13fr;
+
+  height: 100vh;
+ 
+}
+
+.Header{
+  height: 100vh;
+  grid-area: head;
+}
+
+.Major{
+  grid-area: cont;
+}
+
+/*.App {
+  text-align: center;
+}*/
